@@ -72,6 +72,12 @@ export default Component.extend({
 
       this.set('date', newDate);
       this.sendAction('change', newDate);
+    }).on('dp.hide', e => {
+      // Convert moment to js date or default to null
+      let newDate = e.date && e.date.toDate() || null;
+
+      this.set('date', newDate);
+      this.sendAction('hide', newDate);
     });
 
     this.addObserver('date', function() {
