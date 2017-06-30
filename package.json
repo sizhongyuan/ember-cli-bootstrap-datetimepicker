@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-bootstrap-datetimepicker",
+  "name": "ember-cli-bootstrap-datetimepicker-new",
   "version": "0.5.0",
   "description": "Date and time picker component for Ember CLI based on bootstrap-datetimepicker.",
   "keywords": [
@@ -22,7 +22,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/btecu/ember-cli-bootstrap-datetimepicker",
+  "repository": "https://github.com/tjcprince/ember-cli-bootstrap-datetimepicker.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
